@@ -627,8 +627,47 @@ body[data-vhe-edit-mode="mobile"] [data-vhe-mobile-bg]{
   }
   .product-card img{width:min(275px,100%)!important;}
   .bonus-card img{width:min(245px,100%)!important;}
+</style><script id="vhe-faq-accordion-script">(function(){if(window.__vheFaqAccordion)return;window.__vheFaqAccordion=true;document.addEventListener("click",function(e){var btn=e.target.closest&&e.target.closest(".vhe-faq-question");if(!btn)return;var item=btn.closest(".vhe-faq-item");var acc=btn.closest(".vhe-faq-accordion");if(!item||!acc)return;e.preventDefault();var was=item.classList.contains("vhe-open");acc.querySelectorAll(".vhe-faq-item.vhe-open").forEach(function(x){if(x!==item)x.classList.remove("vhe-open")});if(was)item.classList.remove("vhe-open");else item.classList.add("vhe-open");});})();</script>
+<style id="datein7-final-mobile-alignment-and-pagespeed-fix">
+  /* Fix exported mobile mismatch: text boxes looked centered in the editor, but not on the real phone. */
+  .product-card h3,
+  .product-card h4,
+  .bonus-card h3,
+  .bonus-card h4{
+    width:auto!important;
+    max-width:292px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+    text-align:center!important;
+    left:auto!important;
+    top:auto!important;
+    position:relative!important;
+  }
+  .product-card h4{
+    margin-bottom:20px!important;
+  }
+  .product-card p,
+  .bonus-card p{
+    max-width:292px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+    text-align:center!important;
+  }
+  /* Accessibility/PageSpeed contrast cleanup for the option cards. */
+  .option-bad .red,
+  .option-bad h3{
+    color:#9b111e!important;
+  }
+  .option-good .green,
+  .option-good h3{
+    color:#045f0c!important;
+  }
+  .option-card h4,
+  .option-card p{
+    color:#1f1f1f!important;
+  }
 </style>
-<link id="xforge-google-fonts" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&amp;family=Lato:wght@400;700;900&amp;family=Merriweather:wght@400;700;900&amp;family=Montserrat:wght@400;600;700;800;900&amp;family=Open+Sans:wght@400;600;700;800&amp;family=Oswald:wght@400;600;700&amp;family=Playfair+Display:wght@400;700;900&amp;family=Poppins:wght@400;600;700;800;900&amp;family=Raleway:wght@400;600;700;800;900&amp;family=Roboto:wght@400;700;900&amp;display=swap"><script id="vhe-faq-accordion-script">(function(){if(window.__vheFaqAccordion)return;window.__vheFaqAccordion=true;document.addEventListener("click",function(e){var btn=e.target.closest&&e.target.closest(".vhe-faq-question");if(!btn)return;var item=btn.closest(".vhe-faq-item");var acc=btn.closest(".vhe-faq-accordion");if(!item||!acc)return;e.preventDefault();var was=item.classList.contains("vhe-open");acc.querySelectorAll(".vhe-faq-item.vhe-open").forEach(function(x){if(x!==item)x.classList.remove("vhe-open")});if(was)item.classList.remove("vhe-open");else item.classList.add("vhe-open");});})();</script></head>
+</head>
 <body class="" style="margin: 0px; padding: 0px; width: 100%; max-width: 100%; overflow-x: hidden; position: relative;">
 <main class="page" style="box-sizing: border-box; width: 100vw; min-width: 100vw; max-width: 100vw; margin-left: calc(50% - 50vw); margin-right: calc(50% - 50vw); background-clip: border-box;">
 <section class="black center" style="box-sizing: border-box; --vhe-mobile-width: 390px; --vhe-mobile-height: 831px;" data-vhe-mobile-width="true" data-vhe-mobile-height="true">
